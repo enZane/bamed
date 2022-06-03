@@ -37,7 +37,7 @@ export default function ContactForm() {
 
                     <div className="grid grid-cols-1 lg:grid-cols-3">
                         {/* Contact information */}
-                        <div className="relative overflow-hidden py-10 px-6 bg-gradient-to-b from-teal-500 to-teal-600 sm:px-10 xl:p-12">
+                        <div className="relative overflow-hidden py-10 px-6 bg-gradient-to-b from-primary to-indigo-900 sm:px-10 xl:p-12">
                             {/* Decorative angle backgrounds */}
                             <div className="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
                                 <svg
@@ -145,20 +145,20 @@ export default function ContactForm() {
                                     <span className="sr-only">Phone number</span>
                                 </dt>
                                 <dd className="flex text-base text-teal-50">
-                                    <PhoneIcon className="flex-shrink-0 w-6 h-6 text-teal-200" aria-hidden="true" />
-                                    <span className="ml-3">+1 (555) 123-4567</span>
+                                    <PhoneIcon className="flex-shrink-0 w-6 h-6 text-indigo-200" aria-hidden="true" />
+                                    <span className="ml-3">+52 (618) 123-4567</span>
                                 </dd>
                                 <dt>
                                     <span className="sr-only">Email</span>
                                 </dt>
                                 <dd className="flex text-base text-teal-50">
-                                    <MailIcon className="flex-shrink-0 w-6 h-6 text-teal-200" aria-hidden="true" />
-                                    <span className="ml-3">support@workcation.com</span>
+                                    <MailIcon className="flex-shrink-0 w-6 h-6 text-indigo-200" aria-hidden="true" />
+                                    <span className="ml-3">bamed@gmail.com</span>
                                 </dd>
                             </dl>
                             <ul role="list" className="mt-8 flex space-x-12">
                                 <li>
-                                    <a className="text-teal-200 hover:text-teal-100" href="#">
+                                    <a className="text-indigo-200 hover:text-indigo-100" href="#">
                                         <span className="sr-only">Facebook</span>
                                         <svg className="w-7 h-7" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                                             <path
@@ -170,7 +170,7 @@ export default function ContactForm() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text-teal-200 hover:text-teal-100" href="#">
+                                    <a className="text-indigo-200 hover:text-indigo-100" href="#">
                                         <span className="sr-only">Twitter</span>
                                         <svg className="w-7 h-7" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                                             <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -186,7 +186,7 @@ export default function ContactForm() {
                             <form action="/contacto" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                                 <div>
                                     <label htmlFor="first-name" className="block text-sm font-medium text-warm-gray-900">
-                                        First name
+                                        Nombre
                                     </label>
                                     <div className="mt-1">
                                         <input
@@ -194,20 +194,6 @@ export default function ContactForm() {
                                             name="first-name"
                                             id="first-name"
                                             autoComplete="given-name"
-                                            className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
-                                        />
-                                    </div>
-                                </div>
-                                <div>
-                                    <label htmlFor="last-name" className="block text-sm font-medium text-warm-gray-900">
-                                        Last name
-                                    </label>
-                                    <div className="mt-1">
-                                        <input
-                                            type="text"
-                                            name="last-name"
-                                            id="last-name"
-                                            autoComplete="family-name"
                                             className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
                                         />
                                     </div>
@@ -229,7 +215,7 @@ export default function ContactForm() {
                                 <div>
                                     <div className="flex justify-between">
                                         <label htmlFor="phone" className="block text-sm font-medium text-warm-gray-900">
-                                            Phone
+                                            Telefono
                                         </label>
                                         <span id="phone-optional" className="text-sm text-warm-gray-500">
                                             Optional
@@ -248,7 +234,7 @@ export default function ContactForm() {
                                 </div>
                                 <div className="sm:col-span-2">
                                     <label htmlFor="subject" className="block text-sm font-medium text-warm-gray-900">
-                                        Subject
+                                        Asunto
                                     </label>
                                     <div className="mt-1">
                                         <input
@@ -262,10 +248,10 @@ export default function ContactForm() {
                                 <div className="sm:col-span-2">
                                     <div className="flex justify-between">
                                         <label htmlFor="message" className="block text-sm font-medium text-warm-gray-900">
-                                            Message
+                                            Mensaje
                                         </label>
                                         <span id="message-max" className="text-sm text-warm-gray-500">
-                                            Max. 500 characters
+                                            Max. 500 caracteres
                                         </span>
                                     </div>
                                     <div className="mt-1">
@@ -282,9 +268,9 @@ export default function ContactForm() {
                                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                                     <button
                                         type="submit"
-                                        className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-500 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 sm:w-auto"
+                                        className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary hover:bg-indigo-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 sm:w-auto"
                                     >
-                                        Submit
+                                        Enviar
                                     </button>
                                 </div>
                             </form>

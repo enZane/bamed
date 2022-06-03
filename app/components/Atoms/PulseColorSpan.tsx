@@ -17,6 +17,6 @@ export default function PulseColorSpan({ text, variation }: { text: string, vari
         <p className={classNames(variations[variation], `text-white block relative leading-[1]
         before:bg-gradient-to-r
         before:text-transparent before:text-8xl before:bg-clip-text
-        before:duration-[8000] before:inset-0 before:absolute`)}>{ text }</p>
+        before:duration-[8000] before:inset-[0] before:absolute`)}>{ text }</p>
     )
 }

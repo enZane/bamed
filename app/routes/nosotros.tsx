@@ -20,7 +20,7 @@ export default function Example() {
             <div className="py-16 bg-gray-50 overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
                     <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                        <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2>
+                        <h2 className="text-base text-primary font-semibold tracking-wide uppercase">Transactions</h2>
                         <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                             What makes us different
                         </p>
@@ -104,7 +104,7 @@ export default function Example() {
                                         </p>
                                     </div>
                                 </div>
-                                <cite className="relative flex items-center sm:items-start bg-indigo-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+                                <cite className="relative flex items-center sm:items-start bg-primary rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
                                     <span className="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
                                         <img
                                             className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-indigo-300"
@@ -135,7 +135,7 @@ export default function Example() {
                 <div className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
                     <div className="lg:col-start-2 lg:pl-8">
                         <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-                            <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
+                            <h2 className="leading-6 text-primary font-semibold tracking-wide uppercase">Work with us</h2>
                             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                                 Our Process
                             </h3>
